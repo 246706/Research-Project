@@ -1,3 +1,48 @@
+
+
 body{
-    background: gray;
+    background: rgb(0, 0, 0);
+    color: white;
+    box-sizing: border-box;
 }
+img{
+    width:100%;
+    max-width:300px;
+}
+
+.row{
+    width:100%;
+    max-width:1000px;
+    margin: 20px auto;
+}
+.col-1{
+    width:25%;
+    display:inline-block;
+    text-align: center;
+    padding:0 10px;
+}
+.col-2{
+    width:73%;
+    display:inline-block;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .col-1 {
+      width:100%;
+    }
+    .col-2{
+        width:100%;
+    }
+    .col-2 h1,
+    .col-2 h2{
+        text-align: center;
+    }
+  }
+  .nav-brand{
+    background-color: black;
+  }
+  .row h1{
+    font-size: 30px;
+  }
